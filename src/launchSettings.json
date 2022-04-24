@@ -1,0 +1,15 @@
+{
+  "profiles": {
+    "Docker Compose": {
+      "commandName": "DockerCompose",
+      "composeLaunchAction": "None",
+      "composeLaunchServiceName": "ocelotapigw",
+      "commandVersion": "1.0",
+      "serviceActions": {
+        "catalog.api": "StartDebugging",
+        "catalogdb": "StartWithoutDebugging",
+        "ocelotapigw": "StartDebugging"
+      }
+    }
+  }
+}
