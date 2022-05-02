@@ -3,6 +3,10 @@ kind: Pod
 metadata:
   name: catalogdb
   namespace: database-namespace
+  labels:
+    app: catalogdb
+    app-type: database-mongodb
+    release: "0"
 spec:
   containers:
   - name: catalogdb
