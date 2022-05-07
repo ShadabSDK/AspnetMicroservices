@@ -22,6 +22,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "K8s", "K8s", "{0CB253EE-8FC
 		DevOps\K8s\catalogdb-pod.yaml = DevOps\K8s\catalogdb-pod.yaml
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{3FEE74E8-AC6A-4232-AA7B-3AD0F9E3126C}"
+	ProjectSection(SolutionItems) = preProject
+		DevOps\K8s\Database\catalogdb-pod.yaml = DevOps\K8s\Database\catalogdb-pod.yaml
+		DevOps\K8s\Database\catalogdb-service.yaml = DevOps\K8s\Database\catalogdb-service.yaml
+		DevOps\K8s\Database\deployment-catalogdb.yaml = DevOps\K8s\Database\deployment-catalogdb.yaml
+		DevOps\K8s\Database\services-namespace.yaml = DevOps\K8s\Database\services-namespace.yaml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +57,7 @@ Global
 		{36E23EF9-7323-4CC0-A8AF-C1B965A94AA3} = {88D67966-739E-4B55-8EFE-8F2C3324F8DB}
 		{D12CA804-0E4D-4914-A804-94E29C6A44B3} = {946F44D4-02E2-4B7B-87ED-DE769C42EC16}
 		{0CB253EE-8FC3-4400-B047-8A874DBFC570} = {09750A94-F4A2-484D-AAF9-28265CCBC013}
+		{3FEE74E8-AC6A-4232-AA7B-3AD0F9E3126C} = {0CB253EE-8FC3-4400-B047-8A874DBFC570}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {270FA62E-BDE7-4C42-B3E7-95BEC1840CD6}
